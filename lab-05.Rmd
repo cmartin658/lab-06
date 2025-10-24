@@ -124,23 +124,32 @@ ggplot(data = staff_long,
 
 ```{r bad-line-plot}
 # Write your code for Exercise 4 here
-
+ggplot(data = staff_long,
+       mapping = aes(x = year, 
+                     y = percent, 
+                     colour = faculty_type)) +
+  geom_line()
 ```
+theres only one observation for each point
 
 ## Exercise 5
 
 ```{r mutate-year}
 ## Uncomment and complete the following code
 
-#staff_long <- staff_long %>%
-#  mutate(year = ______(year))
+staff_long <- staff_long %>%
+  mutate(year = as.numeric(year))
 ```
 
 
 ```{r working-line-plot}
 # Write your code for Exercise 5 here
 
-
+ggplot(data = staff_long,
+       mapping = aes(x = year, 
+                     y = percent, 
+                     colour = faculty_type)) +
+  geom_line()
 
 ```
 
