@@ -19,13 +19,19 @@ library(ggplot2)
 
 ```{r echo=FALSE, out.width="100%"}
 knitr::include_graphics("img/Speaking-the-world.jpg")
+
+
 ```
 
 _Write your comments about image 1 below_
+the bars have no axes, so you cannot guarantee that the area of the box is actually proportional 
 
+the comma is a decimal point?? misleading 
 
-
-
+the people are weird and unnecessary
+the pictures of speech bubbles in the bars can be misleading
+what is the definition of spoken language? speaks every day? can speak? first language?
+there is no use of colours 
 
 ## Image 2
 
@@ -35,7 +41,7 @@ knitr::include_graphics("img/rose-pop-density-total-area-bw.jpg")
 
 _Write your comments about image 2 below_
 
-
+not clear what colours, area and radius actually represents 
 
 
 ## Image 3
@@ -46,7 +52,9 @@ knitr::include_graphics("img/life-expectancy-rule-of-law.png")
 
 _Write your comments about image 3 below_
 
-
+cannot read the text since its too small
+no title explaining what is going on 
+no key to show what the colours mean, what the size of the circles mean
 
 
 ## Image 4
@@ -57,7 +65,8 @@ knitr::include_graphics("img/global-income-dist.PNG")
 
 _Write your comments about image 4 below_
 
-
+the areas could be transparent so you can see the full area of the data clearer - opacity obstructs some of the data 
+a key might be more effective than writing it in the limited space 
 
 
 
