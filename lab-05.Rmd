@@ -170,8 +170,6 @@ ggplot(data = staff_long,
     subtitle = "(1975-2011)") +
     geom_line() 
    
-
-
 ```
 
 ## Exercise 7
